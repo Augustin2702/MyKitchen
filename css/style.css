@@ -1,0 +1,104 @@
+/* Importing google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700&display=swap");
+
+/* Importing all components*/
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/header.css");
+@import url("components/newsletter.css");
+@import url("components/cards.css");
+@import url("components/footer.css");
+
+/* Elements*/
+
+body{
+	background: white
+	color:black;
+	font-family: 'Nunito Sans', sans-serif;
+	}
+
+h1,h2,h3,h4,p {
+	font-family: 'Nunito Sans', sans-serif;
+	}
+
+h1 {
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 65px;
+color: #000000;
+}
+
+h2 {
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 49px;
+color: #000000;
+}
+
+h3 {
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+color: #000000;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	padding-inline-start: 0px;
+}
+
+footer {
+	background-color: rgba(0, 0, 0, 0.17);
+	padding: 10px 10px 10px 30px
+}
+
+.h3-grey{
+	color: rgba(0, 0, 0, 0.17)
+	}
+.h2-orange{
+	color: #F2A22C;
+	}
+
+
+.logo{
+	width: 87px;
+    height: 93px;
+    padding-right: 28px
+}
+
+.list-inline{
+	list-style:none;
+	padding-left:0px;
+	}
+
+.img-plat{
+	border-radius: 100%;
+	width: 190px 
+	}
+
+/* List design*/
+
+.list-inline{
+	list-style:none;
+	padding-left:0px;
+	}
+.list-inline li{
+	text-decoration: none;
+	display: inline;
+	padding:20px;
+	}
+.list-inline i{
+	font-size: 60px
+	color:#FF865E;
+	}
+
+	

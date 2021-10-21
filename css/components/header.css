@@ -1,0 +1,15 @@
+.header{
+	padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h2{
+	color: #F2A22C;
+    flex-grow: 1;
+}
+
+.header h3{
+	padding-right: 15px
+}
